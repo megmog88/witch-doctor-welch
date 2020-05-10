@@ -1,0 +1,198 @@
+
+/*------------------------------------------Text Styles---*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.center-align{
+    text-align: center;
+}
+
+.font{
+    font-family: "Playfair Display", sans-serif;
+}
+.white-text{
+    color: white;
+}
+.line{
+    height: 8px;
+}
+
+.content-style{
+    font-size: 16px;
+    text-align: left;
+    font-family: "Playfair Display", sans-serif;
+    color: white;
+}
+.content-style h5{
+    text-transform: uppercase;
+}
+
+.footer-question{
+    text-transform: capitalize;
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 10px;
+}
+.footer-button{
+    text-align: center;
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    display: block;
+    font-size: 18px;
+    margin: auto;
+}
+.footer-button a:visited{
+    color: white;}
+
+.footer-button a:link{
+    color: white;}
+    
+.footer-button a:hover{
+    background-color: navy;
+}
+
+h1 {
+    text-decoration: underline;
+}
+
+/*----------------------------------------Color Styling---*/
+
+.bg-darkestblue{
+    background-color: #70A1AC;
+}
+.bg-darkblue{
+    background-color: #8DBCC7;
+}
+.bg-lightblue{
+    background-color: #BAD6DD;
+}
+.bg-lightestblue{
+    background-color:#EDEEF0;
+}
+
+/*-------------------------------------------Margin Styles---*/
+
+/*---------------------------------------------------Nav Styling*/
+
+.header-nav{
+    letter-spacing: 3px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.header-nav ul li{
+    margin: none;
+    padding: 8px;
+}
+.header-nav ul li a:link{
+    color: white;
+}
+.header-nav ul li a:visited{
+    color: white;
+}
+.header-nav ul li a:hover{
+    background-color: navy;
+}
+    
+/*-----------------------------------------------Image Styling*/
+
+.word-style{
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3vw;
+
+}
+
+.background-image{
+    width: 100%;
+    position: relative;
+}
+
+.bottom-left{
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
+    transition: 10s ease-in-out;
+}
+
+.top-left{
+    position: absolute;
+    top: 15%;
+    left: 10%;
+    transition: 5s ease-in-out;
+}
+.top-right{
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    transition: 8s ease-in-out;
+
+}
+.top-right-two{
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    transition: 12s ease-in-out;
+}
+.bottom-right{
+    position: absolute;
+    bottom: 15%;
+    right: 25%;
+    transition: 15s ease-in-out;
+}
+.centered{
+    position: absolute;
+    top: 50%;
+    left: 20%;
+    transition: 3s ease-in-out;
+}
+
+/*------------------------------------------------Icon Styles*/
+
+.fa-facebook-square{
+    font-size: 35px;
+    padding: 35px 8px 25px 8px;
+    color: white;
+}
+.fa-linkedin-square{
+    padding: 35px 8px 25px 8px;
+    font-size: 35px;
+    color: white;
+}
+.fa-instagram{
+    padding: 35px 8px 25px 8px;
+    font-size: 35px;
+    color: white;
+}
+.fa-pinterest-square{
+    padding: 35px 8px 25px 8px;
+    font-size: 35px;
+    color: white;
+}
+
+.fa-facebook-square:hover{
+    color:navy;}
+.fa-pinterest-square:hover{
+    color:navy;}
+.fa-linkedin-square:hover{
+    color:navy;}
+.fa-instagram:hover{
+    color:navy;}
+
+/*-----------------------------------------------Media Queries*/
+
+@media only screen and (max-device-width: 576px) {
+    .header-nav ul li{
+        font-size: 8px;
+        letter-spacing: 1px;
+        padding: 0;
+        margin: none;
+        display: inline-block;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+}
+
