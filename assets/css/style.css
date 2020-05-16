@@ -99,6 +99,7 @@ h1 {
     
 /*-----------------------------------------------Image Styling*/
 
+
 .word-style{
     color: white;
     font-family: "Playfair Display", sans-serif;
@@ -150,6 +151,14 @@ h1 {
     transition: 3s ease-in-out;
 }
 
+.image-height-carousel{
+    height: 35vw;
+}
+
+.image-height-carousel-two{
+    height: 50vw;
+}
+
 /*------------------------------------------------Icon Styles*/
 
 .fa-facebook-square{
@@ -182,6 +191,18 @@ h1 {
 .fa-instagram:hover{
     color:navy;}
 
+.fa-arrow-circle-left{
+    color: black;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.fa-arrow-circle-right{
+    color: black;
+    font-size: 60px;
+    font-weight: 600;
+}
+
 /*-----------------------------------------------Media Queries*/
 
 @media only screen and (max-device-width: 576px) {
@@ -196,3 +217,8 @@ h1 {
     }
 }
 
+@media only screen and (max-device-width: 576px) {
+    .text-before-content{
+        font-size: 8px;
+    }
+}
