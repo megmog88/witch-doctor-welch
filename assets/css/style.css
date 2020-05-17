@@ -59,6 +59,11 @@ h1 {
     text-decoration: underline;
 }
 
+.clipboard-font{
+    font-family: 'Pangolin', cursive;
+    color: #70A1AC;
+    font-size: 10vem;
+}
 /*----------------------------------------Color Styling---*/
 
 .bg-darkestblue{
@@ -72,6 +77,10 @@ h1 {
 }
 .bg-lightestblue{
     background-color:#EDEEF0;
+}
+
+.input-font-size{
+    font-size: 1.7em;
 }
 
 /*-------------------------------------------Margin Styles---*/
@@ -146,9 +155,22 @@ h1 {
 }
 .centered{
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 20%;
     transition: 3s ease-in-out;
+}
+
+.top{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+}
+
+.bottom{
+    position: absolute;
+    bottom: 10%;
+    left: 35%;
+    right: 5%;
 }
 
 .image-height-carousel{
@@ -158,6 +180,7 @@ h1 {
 .image-height-carousel-two{
     height: 50vw;
 }
+
 
 /*------------------------------------------------Icon Styles*/
 
@@ -203,6 +226,11 @@ h1 {
     font-weight: 600;
 }
 
+.fa-check{
+    color: green;
+    font-size: 35px;
+}
+
 /*-----------------------------------------------Media Queries*/
 
 @media only screen and (max-device-width: 576px) {
@@ -214,11 +242,5 @@ h1 {
         display: inline-block;
         overflow: hidden;
         white-space: nowrap;
-    }
-}
-
-@media only screen and (max-device-width: 576px) {
-    .text-before-content{
-        font-size: 8px;
     }
 }
