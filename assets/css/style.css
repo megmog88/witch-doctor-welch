@@ -255,8 +255,15 @@ h1 {
 }
 
 @media only screen and (max-device-width: 576px) {
-.header-image{
+.header-logo{
     height: 150px;
+    width: 100%;
+}
+}
+
+@media only screen and (max-device-width: 576px) {
+.header-image{
+    height: 110px;
     width: 100%;
 }
 }
