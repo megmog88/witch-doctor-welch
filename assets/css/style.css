@@ -20,13 +20,13 @@
 }
 
 .content-style{
-    font-size: 16px;
-    text-align: left;
+    text-align: center;
     font-family: "Playfair Display", sans-serif;
     color: white;
 }
-.content-style h5{
+.content-style h3{
     text-transform: uppercase;
+    text-align: center;
 }
 
 .footer-question{
@@ -43,16 +43,19 @@
     font-family: "Playfair Display", sans-serif;
     display: block;
     font-size: 18px;
-    margin: auto;
 }
+
 .footer-button a:visited{
-    color: white;}
+    color: #70A1AC;
+    }
 
 .footer-button a:link{
-    color: white;}
+    color: #70A1AC;
+    }
     
 .footer-button a:hover{
-    background-color: navy;
+    transition: 5s ease-in-out;
+    background-color: #70A1AC;
 }
 
 h1 {
@@ -94,18 +97,15 @@ h1 {
     overflow: hidden;
     white-space: nowrap;
 }
-.header-nav ul li{
-    margin: none;
-    padding: 8px;
+
+.header-nav a:link{
+    color: #70A1AC;
 }
-.header-nav ul li a:link{
-    color: white;
+.header-nav a:visited{
+    color: #70A1AC;
 }
-.header-nav ul li a:visited{
-    color: white;
-}
-.header-nav ul li a:hover{
-    background-color: navy;
+.header-nav a:hover{
+    background-color: #8DBCC7;
 }
     
 /*-----------------------------------------------Image Styling*/
@@ -215,13 +215,13 @@ h1 {
 }
 
 .fa-facebook-square:hover{
-    color:navy;}
+    color: #70A1AC;}
 .fa-pinterest-square:hover{
-    color:navy;}
+    color: #70A1AC;}
 .fa-linkedin-square:hover{
-    color:navy;}
+    color: #70A1AC;}
 .fa-instagram:hover{
-    color:navy;}
+    color: #70A1AC;}
 
 .fa-arrow-circle-left{
     color: black;
@@ -243,27 +243,41 @@ h1 {
 /*-----------------------------------------------Media Queries*/
 
 @media only screen and (max-device-width: 576px) {
-    .header-nav ul li{
+    .header-nav{
         font-size: 8px;
         letter-spacing: 1px;
         padding: 0;
         margin: none;
-        display: inline-block;
         overflow: hidden;
         white-space: nowrap;
     }
 }
 
 @media only screen and (max-device-width: 576px) {
-.header-logo{
-    height: 150px;
-    width: 100%;
+.fa-facebook-square{
+    padding: 10px 8px 15px 8px;
+    font-size: 20px;
+    color: white;
 }
+.fa-linkedin-square{
+    padding: 5px 8px 15px 8px;
+    font-size: 20px;
+    color: white;
 }
-
-@media only screen and (max-device-width: 576px) {
-.header-image{
-    height: 110px;
-    width: 100%;
+.fa-instagram{
+    padding: 10px 8px 15px 8px;
+    font-size: 20px;
+    color: white;
+}
+.fa-pinterest-square{
+    padding: 10px 8px 15px 8px;
+    font-size: 20px;
+    color: white;
+}
+.footer-button{
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+    font-size: 12px;
 }
 }
