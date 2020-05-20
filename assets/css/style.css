@@ -40,7 +40,6 @@
     text-align: center;
     color: white;
     font-family: "Playfair Display", sans-serif;
-    display: block;
     font-size: 18px;
 }
 
@@ -79,10 +78,6 @@ h3 {
 }
 .bg-lightestblue{
     background-color:#EDEEF0;
-}
-
-.input-font-size{
-    font-size: 1.7em;
 }
 
 /*-------------------------------------------Margin Styles---*/
@@ -181,6 +176,12 @@ h3 {
     right: 5%;
 }
 
+.card-img {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
 .image-height-carousel{
     height: 35vw;
 }
@@ -253,10 +254,10 @@ h3 {
 }
 
 @media only screen and (max-device-width: 576px) {
-.margin-home{
-    margin-top: 30px;
-}
 
+.margin-home{
+    padding-left: 20px;
+}
 .fa-facebook-square{
     padding: 10px 8px 15px 8px;
     font-size: 20px;
