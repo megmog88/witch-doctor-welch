@@ -195,21 +195,17 @@ h3 {
 
 .fa-facebook-square{
     font-size: 35px;
-    padding: 35px 8px 25px 8px;
     color: white;
 }
 .fa-linkedin-square{
-    padding: 35px 8px 25px 8px;
     font-size: 35px;
     color: white;
 }
 .fa-instagram{
-    padding: 35px 8px 25px 8px;
     font-size: 35px;
     color: white;
 }
 .fa-pinterest-square{
-    padding: 35px 8px 25px 8px;
     font-size: 35px;
     color: white;
 }
@@ -255,9 +251,6 @@ h3 {
 
 @media only screen and (max-device-width: 576px) {
 
-.margin-home{
-    padding-left: 20px;
-}
 .fa-facebook-square{
     padding: 10px 8px 15px 8px;
     font-size: 20px;
@@ -277,12 +270,6 @@ h3 {
     padding: 10px 8px 15px 8px;
     font-size: 20px;
     color: white;
-}
-.footer-button{
-    position: absolute;
-    bottom: 8px;
-    left: 50px;
-    font-size: 12px;
 }
 }
 
