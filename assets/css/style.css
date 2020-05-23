@@ -1,6 +1,3 @@
-
-@import Button from 'react-bootstrap/Button';
-
 /*------------------------------------------Text Styles---*/
 
 .uppercase {
@@ -54,6 +51,8 @@
     }
     
 .footer-button a:hover{
+    -webkit-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
     transition: 5s ease-in-out;
     background-color: #70A1AC;
 }
@@ -66,6 +65,12 @@ h3 {
     font-family: 'Pangolin', cursive;
     color: #70A1AC;
     font-size: 10vem;
+}
+.word-style{
+    color: white;
+    font-family: "Playfair Display", sans-serif;
+    font-size: 3vw;
+
 }
 /*----------------------------------------Color Styling---*/
 
@@ -105,63 +110,15 @@ h3 {
 }
     
 /*-----------------------------------------------Image Styling*/
+
 .product-table{
-    height: 100%;
-    width: 100%;
+    border: #EDEEF0 solid;
+    border radius: 5px;
 }
 
 .product-image {
-  position: relative;
   width: 100%;
   height: 250px;
-}
-.image {
-  width: 100%;
-  height: auto;
-}
-
-.overlay:target {
-    visibility: visible;
-    outline: none;
-    cursor: default;
-}
-
-.overlay {
-  position: absolute;
-  bottom: 100%;
-  left: 0;
-  right: 0;
-  background-color: #70a1acc;
-  overflow: hidden;
-  width: 100%;
-  height: 0;
-  transition: .5s ease;
-  
-}
-
-
-.product-image:hover .overlay {
-  bottom: 0;
-  height: 100%;
-  background-color: #70A1ACC;
-  }
-
-.product-text {
-  white-space: nowrap; 
-  color: white;
-  font-size: 12px;
-  position: absolute;
-  overflow: hidden;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.word-style{
-    color: white;
-    font-family: "Playfair Display", sans-serif;
-    font-size: 3vw;
-
 }
 
 .background-image{
@@ -173,6 +130,8 @@ h3 {
     position: absolute;
     bottom: 8px;
     left: 16px;
+    -webkit-transition: 10s ease-in-out;
+    -o-transition: 10s ease-in-out;
     transition: 10s ease-in-out;
 }
 
@@ -180,12 +139,16 @@ h3 {
     position: absolute;
     top: 15%;
     left: 10%;
+    -webkit-transition: 5s ease-in-out;
+    -o-transition: 5s ease-in-out;
     transition: 5s ease-in-out;
 }
 .top-right{
     position: absolute;
     top: 5%;
     right: 10%;
+    -webkit-transition: 8s ease-in-out;
+    -o-transition: 8s ease-in-out;
     transition: 8s ease-in-out;
 
 }
@@ -193,18 +156,24 @@ h3 {
     position: absolute;
     top: 30%;
     right: 35%;
+    -webkit-transition: 12s ease-in-out;
+    -o-transition: 12s ease-in-out;
     transition: 12s ease-in-out;
 }
 .bottom-right{
     position: absolute;
     bottom: 15%;
     right: 25%;
+    -webkit-transition: 15s ease-in-out;
+    -o-transition: 15s ease-in-out;
     transition: 15s ease-in-out;
 }
 .centered{
     position: absolute;
     top: 35%;
     left: 15%;
+    -webkit-transition: 3s ease-in-out;
+    -o-transition: 3s ease-in-out;
     transition: 3s ease-in-out;
 }
 
@@ -224,9 +193,22 @@ h3 {
 .card-img {
     width: 100%;
     height: 20vw;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
+/*-----------------------------------------------Hover Styling*/
 
+table:hover{
+    color: white;
+}
+tbody:hover{
+    color: white;
+}
+tbody tr:hover{
+    color: white;
+    background-color: #70A1AC;
+    text-transform: scale(1.5);
+}
 
 /*------------------------------------------------Icon Styles*/
 
@@ -314,6 +296,7 @@ h3 {
 .card-img {
     width: 100%;
     height: 35vw;
-    object-fit: cover;
+    -o-object-fit: cover;
+       object-fit: cover;
 }
 }
