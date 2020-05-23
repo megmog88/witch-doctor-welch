@@ -72,6 +72,9 @@ h3 {
     font-size: 3vw;
 
 }
+.product-table{
+        white-space: nowrap;
+    }
 /*----------------------------------------Color Styling---*/
 
 .bg-darkestblue{
