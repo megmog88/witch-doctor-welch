@@ -116,6 +116,10 @@ h3 {
 }
     
 /*-----------------------------------------------Image Styling*/
+.arrow-transition{
+    transition: width 7s;
+    transition-timing-function: linear;
+}
 
 .product-table{
     border: #EDEEF0 solid;
@@ -268,7 +272,7 @@ tbody tr:hover{
 
 /*-----------------------------------------------Media Queries*/
 
-@media only screen and (max-device-width: 576px) {
+@media only screen and (max-device-width: 767px) {
     .header-nav{
         font-size: 8px;
         letter-spacing: 1px;
@@ -279,7 +283,7 @@ tbody tr:hover{
     }
 }
 
-@media only screen and (max-device-width: 576px) {
+@media only screen and (max-device-width: 768px) {
 
 .fa-facebook-square{
     padding: 10px 8px 15px 8px;
