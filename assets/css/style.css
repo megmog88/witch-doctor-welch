@@ -17,7 +17,6 @@
 .line{
     height: 8px;
 }
-
 .content-style{
     font-family: "Playfair Display", sans-serif;
     color: white;
@@ -78,6 +77,7 @@ h3 {
 }
 .product-table{
         white-space: nowrap;
+        font-size: 14px;
     }
 /*----------------------------------------Color Styling---*/
 
@@ -99,7 +99,7 @@ h3 {
 
 .header-nav{
     letter-spacing: 3px;
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 700;
     overflow: hidden;
     white-space: nowrap;
