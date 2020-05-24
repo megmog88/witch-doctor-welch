@@ -311,7 +311,7 @@ tbody tr:hover{
        object-fit: cover;
 }
 }
-@media (min-width: 576px) and (max-width: 991px) {
+@media (min-width: 576px) and (max-width: 1024px) {
     .product-table tr{
         font-size: 11px;
     }
