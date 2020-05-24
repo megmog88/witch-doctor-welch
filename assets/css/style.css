@@ -133,11 +133,11 @@ h3 {
 }
 .overlay .overlay-text {
 	text-align: center;
-	font-size: 18px;
+	font-size: 14px;
     font-family: "Playfair Display", sans-serif;
 	display: inline-block;
 	position: absolute;
-	top: 50%;
+    top: 50%;
 	left: 50%;
 	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
@@ -368,5 +368,8 @@ tbody tr:hover{
 @media (min-width: 576px) and (max-width: 1024px) {
     .product-table tr{
         font-size: 11px;
+    }
+    .overlay-text{
+        font-size: 12px;
     }
 }
