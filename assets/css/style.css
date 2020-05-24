@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
+
 /*------------------------------------------Text Styles---*/
 
 .uppercase {
@@ -97,7 +104,8 @@ h3 {
 /*-------------------------------------------Hover Product Page---*/
 .overlay,
 .overlay * {
-	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
 }
 .overlay {
 	position: relative;
@@ -122,9 +130,8 @@ h3 {
 	background: rgba(0, 0, 0, 0.8);
 	color: #70A1AC;
 	padding: 15px;
-	-moz-transition: all 1s ease-in-out 0s;
 	-webkit-transition: all 1s ease-in-out 0s;
-	-ms-transition: all 1s ease-in-out 0s;
+	-o-transition: all 1s ease-in-out 0s;
 	transition: all 1s ease-in-out 0s;
 }
 .overlay:hover .overlay-top,
@@ -139,7 +146,6 @@ h3 {
 	position: absolute;
     top: 50%;
 	left: 50%;
-	-moz-transform: translate(-50%, -50%);
 	-webkit-transform: translate(-50%, -50%);
 	-ms-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
@@ -166,14 +172,10 @@ h3 {
 }
     
 /*-----------------------------------------------Image Styling*/
-.arrow-transition{
-    transition: width 7s;
-    transition-timing-function: linear;
-}
 
 .product-table{
     border: #EDEEF0 solid;
-    border radius: 5px;
+    border-radius: 5px;
 }
 
 .product-image {
@@ -264,7 +266,9 @@ table:hover{
 }
 
 tbody tr td:hover{
-    transform: scale(2);
+    -webkit-transform: scale(2);
+        -ms-transform: scale(2);
+            transform: scale(2);
 }
 
 tbody:hover{
