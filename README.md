@@ -20,7 +20,7 @@ showcase why am I better than the person next door.
 5. As a person who doesn't have access to a computer I want to be able to veiw the website with the Content
 and design that is pleasing to the eye.
 
-### Skeleton
+### Wireframes
 In order to prep for my project I used Balsamiq Wireframes to do muck ups for all screen sizes for all 4 pages as seen in the
 images below.
 #### DESKTOP
@@ -35,6 +35,11 @@ images below.
 #### MOBILE 
 ![Mobile Veiw](assets/images/Mobile1.PNG)
 ![Mobile Veiw](assets/images/Mobile2.PNG)
+
+### Color scheme
+I chose a calming  color scheme which is reflected all through my project, below is 
+an image of colors used.
+![Color Scheme](assets/images/Colors.PNG)
 
 
 ## Features
