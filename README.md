@@ -20,9 +20,22 @@ showcase why am I better than the person next door.
 5. As a person who doesn't have access to a computer I want to be able to veiw the website with the Content
 and design that is pleasing to the eye.
 
-### Wireframes 
- 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
+### Skeleton
+In order to prep for my project I used Balsamiq Wireframes to do muck ups for all screen sizes for all 4 pages as seen in the
+images below.
+#### DESKTOP
+![Index Page](assets/images/IndexPage.PNG)
+![Therapy](assets/images/TherapyPage.PNG)
+![Product](assets/images/ProductPage.PNG)
+![Register](assets/images/RegisterPage.PNG)
+#### MEDIUM DEVICE 
+![Medium Veiw](assets/images/Medium1.PNG)
+![Medium Veiw](assets/images/Medium2.PNG)
+
+#### MOBILE 
+![Mobile Veiw](assets/images/Mobile1.PNG)
+![Mobile Veiw](assets/images/Mobile2.PNG)
+
 
 ## Features
 
