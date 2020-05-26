@@ -9,14 +9,12 @@ sourced products which will be displayed on the website.
 # Table of Contents
 
 **[UX](#UX)**<br>
-**[Features](##Features)**<br>
-**[Features Left to Implement](##Features Left to Implement)**<br>
-**[Technologies Used](##Technologies-used)**<br>
-**[Testing](##Testing)**<br>
-**[Issues while Testing](##Issues while Testing)**<br>
-**[Deployment](##Deployment)**<br>
-**[Credits](##Credits)**<br>
-**[Acknowledgement](##Acknowledgement)**<br>
+**[Features](#Features)**<br>
+**[Technologies Used](#Technologies-used)**<br>
+**[Testing](#Testing)**<br>
+**[Deployment](#Deployment)**<br>
+**[Credits](#Credits)**<br>
+**[Acknowledgement](#Acknowledgement)**<br>
 
 ## UX
  
