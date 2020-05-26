@@ -1,9 +1,23 @@
+![Logo](assets/images/logo.png)
+
 # MileStone Project One- Witch Doctor Welch
 
 A front end static website made for Katja Welch. A website where we can display a bit about Katja and what therapies
 she can offer being a fully trained practioner and showcase to the world. Katja is also a believer in usualy sustainably
 sourced products which will be displayed on the website. 
  
+# Table of Contents
+
+**[UX](#UX)**<br>
+**[Features](##Features)**<br>
+**[Features Left to Implement](##Features Left to Implement)**<br>
+**[Technologies Used](##Technologies-used)**<br>
+**[Testing](##Testing)**<br>
+**[Issues while Testing](##Issues while Testing)**<br>
+**[Deployment](##Deployment)**<br>
+**[Credits](##Credits)**<br>
+**[Acknowledgement](##Acknowledgement)**<br>
+
 ## UX
  
 The website will be designed to showcase the wonderful work of Katja Welch, with the use of a calming color palette
@@ -50,36 +64,34 @@ have the same header and footer. The header includes the brand logo full screen 
 The footer includes "get in touch button" that takes you to the register.html page and social media links that when hovered 
 are styled to fit in with the page color scheme.
 
-###### Home Page
+### Home Page
 The home page was designed to be the most entising and want the user to want to know more. We have the who, what, where
 and why to so the user knows what they are looking at and why they have found this page. Above the 4 w's is an image with
 power words that transition over at different times to make it more engaging for the user.
  
-###### Therapy Page
+### Therapy Page
 The next page is the Therapy page. This page is eye catching and shows the details about the different therapies that
 are on offer and shows the price per session and length. This allows the user to get a feel for what they could sign up for.
 There are images to enhance the feel of the site.
 
-###### Product Page
+### Product Page
 The Product page show cases all items that the owner has sustainably sourced and offeres to the users. Each product has
 a hoverable image with a description of the type of product and hoverable rows with the type and price of what is for sale.
 There is a more info button under each image to ensure the user clicks(for mobiles the click action gets the hover effect).
 Again images are supplied so the user is not confused and gets a feel for the items for sale.
 
-###### Register Page
+### Register Page
 All users at this point are here and here for a reason. On this page I have implented a little checklist clipboard with an arrow
 image pointing to the form. It's a playful part that adds the element of fun. Then we have the sign up form which is validated
 to ensure it gets filled in.
 
 
-### Features Left to Implement
+## Features Left to Implement
 --
 Below is a list of features left to implement(When my knowledge is a bit broader)
 * When the submit form is clicked on I would like a success message to appear and the information to be sent to the business.
 * To implement the product page to be a button to click on for more information instead of a hover overlay.
 * To get the twirly arrow on the register page to bounce and twirl into the page. :)
-
-
 
 ## Technologies Used
 
@@ -164,7 +176,7 @@ following steps in order to deploy my project.
 - Paid for Clipboard Image from https://www.vectorstock.com/
 - Logo designed and made by Amanda Spence
 
-### Acknowledgements
+## Acknowledgements
 
 - My best mate Katja Welch inspired me for this project. Her love for all spiritual healings and a key eye for
 attention to detail.
