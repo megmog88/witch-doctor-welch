@@ -50,9 +50,15 @@ images below.
 
 ### Color scheme
 I chose a calming  color scheme which is reflected all through my project, below is 
-an image of colors used.
-![Color Scheme](assets/images/Colors.PNG)
+an image of colors used. Codes are #70A1AC, #8DBCC7, BAD6DD, #EDEEF0
 
+![Color Scheme](assets/images/Colors.P#70A1ACNG)
+
+### Typogrophy
+Using google fonts i decided to use two fonts although one is purely for the clipart on the 
+register page for a bit of fun. The fonts used are below from Google Fonts.
+* Playfair display
+* Pangolin
 
 ## Features
 
@@ -83,16 +89,13 @@ All users at this point are here and here for a reason. On this page I have impl
 image pointing to the form. It's a playful part that adds the element of fun. Then we have the sign up form which is validated
 to ensure it gets filled in.
 
-
 ## Features Left to Implement
---
 Below is a list of features left to implement(When my knowledge is a bit broader)
 * When the submit form is clicked on I would like a success message to appear and the information to be sent to the business.
 * To implement the product page to be a button to click on for more information instead of a hover overlay.
 * To get the twirly arrow on the register page to bounce and twirl into the page. :)
 
 ## Technologies Used
-
 Below is a list of all technologies used in order to achieve the end goal.
 
 #### Languages
@@ -100,7 +103,7 @@ Below is a list of all technologies used in order to achieve the end goal.
 * CSS - A style sheet language used for the design of the web page
 #### Frameworks
 * Bootstrap [https://v4-alpha.getbootstrap.com/]- Used for layout of my web page and for styling as well.
-#### libraries
+#### Libraries
 * Google Fonts [https://fonts.google.com/]
 * Font Awesome(Bootstrap Library) [https://www.bootstrapcdn.com/fontawesome/]
 * Bootstrap Jquery and Popover for my form on register.html [https://getbootstrap.com/docs/3.3/javascript/]
@@ -163,19 +166,20 @@ following steps in order to deploy my project.
 7. In order to run code locally go to the repositary and there is a green button that says "clone or download".
 8. Go to workspace and type in git clone 
 9. Hit Enter
-10. Local clone done :)
+10. All done
 
 
 ## Credits
+
 ### Content
 - Katja Welch wrote the content for her website.
 ### Media
 - Katja Welch provided with me with most photos(others I have listed below)
 - Paid for Clipboard Image from https://www.vectorstock.com/
-- Logo designed and made by Amanda Spence
+- Logo designed and made by Amanda Spence my sister :)
 
 ## Acknowledgements
 
-- My best mate Katja Welch inspired me for this project. Her love for all spiritual healings and a key eye for
-attention to detail.
-- One major inspiration is lockdown.
+- My best mate Katja Welch inspired me for this project. Her love for all spiritual healings and being a general bundle of joy.
+- Amanda Spence, my sister for putting up with me when things were tough.
+
