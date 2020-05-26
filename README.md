@@ -3,7 +3,7 @@
 # MileStone Project One- Witch Doctor Welch
 
 A front end static website made for Katja Welch. A website where we can display a bit about Katja and what therapies
-she can offer being a fully trained practioner and showcase to the world. Katja is also a believer in usualy sustainably
+she can offer being a fully trained practioner and showcase to the world. Katja is also a believer in using sustainably
 sourced products which will be displayed on the website. 
  
 # Table of Contents
