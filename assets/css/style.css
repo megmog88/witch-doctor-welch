@@ -257,13 +257,6 @@ h3 {
     right: 5%;
 }
 
-
-.card-img {
-    width: 100%;
-    height: 20vw;
-    -o-object-fit: cover;
-       object-fit: cover;
-}
 /*-----------------------------------------------Hover Styling*/
 
 table:hover{
@@ -331,7 +324,15 @@ tbody tr:hover{
 
 /*-----------------------------------------------Media Queries*/
 
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-device-width: 576px){
+.card-img {
+    width: 100%;
+    height: 20vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+
+}
+@media only screen and (max-device-width: 768px) {
     .header-nav{
         font-size: 8px;
         letter-spacing: 1px;
@@ -342,7 +343,7 @@ tbody tr:hover{
     }
 }
 
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 769px) {
 
 .fa-facebook-square{
     padding: 10px 8px 15px 8px;
