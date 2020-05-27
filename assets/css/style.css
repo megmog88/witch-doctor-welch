@@ -169,9 +169,14 @@ h3 {
 }
 .header-nav a:hover{
     background-color: #8DBCC7;
+    color: #EDEEF0;
 }
     
 /*-----------------------------------------------Image Styling*/
+
+.header-logo{
+    max-height: 200px;
+}
 
 .product-table{
     border: #EDEEF0 solid;
