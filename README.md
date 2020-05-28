@@ -52,7 +52,7 @@ images below.
 I chose a calming  color scheme which is reflected all through my project, below is 
 an image of colors used. Codes are #70A1AC, #8DBCC7, BAD6DD, #EDEEF0
 
-![Color Scheme](assets/images/Colors.P#70A1ACNG)
+![Color Scheme](assets/images/Colors.PNG)
 
 ### Typogrophy
 Using google fonts i decided to use two fonts although one is purely for the clipart on the 
