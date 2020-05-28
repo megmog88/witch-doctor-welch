@@ -13,7 +13,6 @@ sourced products which will be displayed on the website.
 **[Technologies Used](#Technologies-used)**<br>
 **[Testing](#Testing)**<br>
 **[Deployment](#Deployment)**<br>
-**[Clone or Downlaod](#Clone or Download)**<br>
 **[Credits](#Credits)**<br>
 **[Acknowledgement](#Acknowledgement)**<br>
 
@@ -111,6 +110,10 @@ Below is a list of all technologies used in order to achieve the end goal.
 * W3 Schools [https://www.w3schools.com/] a great base to get refresher materialswhen help was needed.
 * Youtube [https://www.youtube.com/] for some tutorials when things where tough
 
+##### GitPod/GitHub
+* GitPod was the IDE I used for my project
+* GitHub was used to host my website and the repositary
+
 ## Testing 
 Throughout the project I was testing as I made it on an open webpage through gitpod to see realtime changes. I used
 the chrome developer tools to check the responsiveness of my sit as well throughout and ammened as and when necessary. 
@@ -158,6 +161,7 @@ so I would catch them as I was coding.
 ## Deployment
 My project was started on GitHub[github.com] by making a repositary and then using them with the GitPod IDE. I did the 
 following steps in order to deploy my project.
+
 1. From GitPod after the latest commit then we use GitPush to get the code in GitHub repositary.
 2. Go to the required GitHub repositary and go to settings.
 3. Scroll down to GitHub Pages section in settings
@@ -180,7 +184,7 @@ following steps in order to deploy my project.
 ### Content
 - Katja Welch wrote the content for her website.
 ### Media
-- Katja Welch provided with me with most photos(others I have listed below)
+- Katja Welch provided with me photos used
 - Paid for Clipboard Image from https://www.vectorstock.com/
 - Logo designed and made by Amanda Spence my sister :)
 
