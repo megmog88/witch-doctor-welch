@@ -396,7 +396,7 @@ tbody tr:hover{
 @media only screen and (min-device-width: 1000px) {
     .card-img{
             object-fit: cover;
-            max-height: 260px;
+            max-height: 280px;
     }
 }
 
