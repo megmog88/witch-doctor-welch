@@ -13,6 +13,7 @@ sourced products which will be displayed on the website.
 **[Technologies Used](#Technologies-used)**<br>
 **[Testing](#Testing)**<br>
 **[Deployment](#Deployment)**<br>
+**[Clone or Downlaod](#Clone or Download)**<br>
 **[Credits](#Credits)**<br>
 **[Acknowledgement](#Acknowledgement)**<br>
 
@@ -163,10 +164,15 @@ following steps in order to deploy my project.
 4. Where it says source choose master branch.
 5. Then your site is published
 6. The link is [https://megmog88.github.io/witch-doctor-welch/] to the live website.
-7. In order to run code locally go to the repositary and there is a green button that says "clone or download".
-8. Go to workspace and type in git clone 
-9. Hit Enter
-10. All done
+
+## Clone or Download
+1. When in the git hub repositary click on the green button "Clone or Download"
+2. Copy the URL that is produced
+3. Open your chosen IDE
+4. Type in the workspace "git clone"
+5. The paste the copied URL
+6. Press enter
+7. And you are complete :)
 
 
 ## Credits
