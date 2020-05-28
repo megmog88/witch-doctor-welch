@@ -338,7 +338,7 @@ tbody tr:hover{
 }
 
 }
-@media only screen and (max-device-width: 768px) {
+@media only screen and (max-device-width: 576px) {
     .header-nav{
         font-size: 8px;
         letter-spacing: 1px;
@@ -347,34 +347,32 @@ tbody tr:hover{
         overflow: hidden;
         white-space: nowrap;
     }
-
-    .card-body{
-        font-size: 12px;
-    }
 }
 
 @media only screen and (max-device-width: 769px) {
-
-.fa-facebook-square{
-    padding: 10px 8px 15px 8px;
-    font-size: 20px;
-    color: white;
-}
-.fa-linkedin-square{
-    padding: 5px 8px 15px 8px;
-    font-size: 20px;
-    color: white;
-}
-.fa-instagram{
-    padding: 10px 8px 15px 8px;
-    font-size: 20px;
-    color: white;
-}
-.fa-pinterest-square{
-    padding: 10px 8px 15px 8px;
-    font-size: 20px;
-    color: white;
-}
+    .card-body{
+        font-size: 12px;
+        }
+    .fa-facebook-square{
+        padding: 10px 8px 15px 8px;
+        font-size: 20px;
+        color: white;
+        }
+    .fa-linkedin-square{
+        padding: 5px 8px 15px 8px;
+        font-size: 20px;
+        color: white;
+        }
+    .fa-instagram{
+        padding: 10px 8px 15px 8px;
+        font-size: 20px;
+        color: white;
+        }
+    .fa-pinterest-square{
+        padding: 10px 8px 15px 8px;
+        font-size: 20px;
+        color: white;
+        }
 }
 
 @media only screen and (max-device-width: 576px) {
@@ -386,6 +384,9 @@ tbody tr:hover{
     }
 }
 @media (min-width: 576px) and (max-width: 1024px) {
+    .header-nav{
+        font-size: 12px;
+    }
     .product-table tr{
         font-size: 11px;
     }
@@ -398,7 +399,6 @@ tbody tr:hover{
     }
 }
 @media only screen and (max-device-width: 769px){
-    
     .card-img{
             object-fit: cover;
             max-height: 260px;
