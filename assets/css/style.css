@@ -152,6 +152,9 @@ h3 {
 }
 
 /*---------------------------------------------------Nav Styling*/
+.header-nav .active{
+    background-color: #BAD6DD;
+}
 
 .header-nav{
     letter-spacing: 3px;
@@ -185,7 +188,7 @@ h3 {
 
 .product-image {
   width: 100%;
-  height: 250px;
+  height: 45vh;
 }
 
 .background-image{
